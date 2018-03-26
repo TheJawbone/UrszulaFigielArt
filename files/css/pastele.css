@@ -1,0 +1,206 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../graf/tlotlo2.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+br {
+	clear: both;
+}
+
+.grid {
+	width: 28%;
+	margin: 0 2% 0 2%;
+	float: left;
+	display: inline;
+	position: relative;
+}
+
+body {
+	color: white;
+}
+
+#wrapper {
+	float: left;
+	width: 100%;
+	height: 100%;
+	background-image: url("../graf/tlotlo2.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+}
+
+h1 {
+	margin: 1.5% 0 0 25%;
+	float: left;
+	font-family: 'Nothing You Could Do', cursive;
+	font-size: 4em;
+	text-shadow: 0 3px 2px black;
+	width: 50%;
+	text-align: center;
+	padding: 0 0 2% 0;
+}
+
+#gallery {
+	padding: 2% 0 2% 0;
+	width: 80%;
+	margin: -1% 0 0 10%;
+	float: left;
+	border-radius: 20px 20px;
+}
+
+.img {
+	width: 100%;
+	margin: 3%; 0 3% 0;
+	box-shadow: 0 0 5px #444;
+	transition: all 0.2s ease-in-out;
+}
+
+.img:hover {
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+}
+
+.bimg {
+	transition: all 0.2s ease-in-out;
+}
+
+.g1 ul li .bimg {
+	position: relative;
+	z-index: 1000;
+	margin-left: 3%;
+	width: 230%;
+	box-shadow: 0 0 30px 5px black;
+}
+
+.g2 ul li .bimg {
+	position: relative;
+	z-index: 1000;
+	margin-left: -55%;
+	width: 230%;
+	box-shadow: 0 0 30px black;
+}
+
+.g3 ul li .bimg {
+	position: relative;
+	z-index: 1000;
+	margin-left: -120%;
+	width: 230%;
+	box-shadow: 0 0 30px black;
+}
+
+.imgx {
+	width: 100%;
+	margin: 3%; 0 3% 0;
+	box-shadow: 0 0 5px #444;
+	transition: all 0.2s ease-in-out;
+}
+
+.imgx:hover {
+	box-shadow: 0 0 10px black;
+	cursor: pointer;
+}
+
+.bimgx {
+	transition: all 0.2s ease-in-out;
+}
+
+.g1 ul li .bimgx {
+	position: relative;
+	z-index: 1000;
+	margin-left: 3%;
+	width: 150%;
+	box-shadow: 0 0 30px 5px black;
+}
+
+.g2 ul li .bimgx {
+	position: relative;
+	z-index: 1000;
+	margin-left: 3%;
+	width: 150%;
+	box-shadow: 0 0 30px black;
+}
+
+.g3 ul li .bimgx {
+	position: relative;
+	z-index: 1000;
+	margin-left: -46%;
+	width: 150%;
+	box-shadow: 0 0 30px black;
+}
+
+#kategorie {
+	list-style: none;
+	border-top: 1px solid #616161;
+}
+
+ul {
+	list-style: none;
+}
+
+#head a {
+	float: right;
+	text-decoration: none;
+	font-size: 0.9em;
+	color: #888;
+	margin: 3% 3% 0 0;
+	transition: all 0.2s ease-in-out;
+}
+
+#head a:hover {
+	color: rgb(199,255,246);
+	background-color: rgba(255,255,255,.3);
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(255,255,255,.3);
+}
+
+.head {
+	width: 80%;
+	float: left;
+	margin-left: 10%;
+	border-bottom: 1px solid rgba(10,72,149,.8);
+}
+
+#links {
+	float: left;
+	width: 80%;
+	margin: 0 0 0 10%;
+}
+
+#links ul li {
+	float: left;
+	display: inline-block;
+	width: 19%;
+	text-align: center;
+	background-color: rgba(255,255,255,0);
+	font-size: 1.25em;
+	font-family: sans-serif;
+	margin: 0;
+	transition: background-color 0.5s ease;
+	padding: 1% 0 2% 0;
+}
+
+#links ul li:hover {
+	background-color: rgba(255,255,255,.2);
+}
+
+#links ul li:first-child {
+	margin-left: 2.5%;
+}
+
+#links ul li a {
+	text-decoration: none;
+	color: rgb(100,100,100);
+	transition: color 0.5s ease;
+}
+
+#links ul li a:hover {
+	color: rgb(199,255,246);
+}
+
+#gallery p {
+	font-size: 2em;
+	text-shadow: 0 1px 1px black;
+	margin-left: 2%;
+}
